@@ -10,10 +10,6 @@ st.write("# Welcome to DietDynamo!👋")
 
 st.sidebar.success("Select a recommendation app.")
 
-# Importing the image from another file
-image = Image.open("D:\project files\Diet recommendation system\logo.png")
-image_resized = image.resize((50, 50))
-st.image(image, caption="DietDynamo Logo", use_column_width=True)
 
 st.markdown(
     """
